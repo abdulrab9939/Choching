@@ -24,7 +24,7 @@ const Contact = () => {
    <h1>Contact Us</h1>
    <p  className='text-justify'>Lorem ipsum is a dummy text without any sense. It is a sequence of Lat
     in words that, as they are positioned, do not form sentences with a complete s
-    ense, but give life to a test text useful to fill spaces that will subsequently 
+    ense, but give life to This is  a test text useful to fill spaces that will subsequently 
     be occupied from ad hoc
      texts composed by communication professionals.</p>
     </div>
