@@ -1,6 +1,6 @@
 import React,{useState} from 'react'
 import {addDoc,collection} from 'firebase/firestore'
-
+import { Link } from 'react-router-dom';
 import { auth,db } from "./../firebase";
 const Contact = () => {
   const[name,setName] = useState();
@@ -68,6 +68,19 @@ const Contact = () => {
     </div>
   </div>
   </div>
+
+  <nav aria-label="Page navigation example">
+  <ul class="pagination">
+  <li class="page-item"><a class="page-link" href="#">Previus</a></li>
+
+  <li className="nav-item">
+          <Link className="page-item" to="/feedback"><a class="page-link" to="contact2">1</a> </Link>
+        </li>
+    <li class="page-item"><a class="page-link" href="#">2</a></li>
+    <li class="page-item"><a class="page-link" href="#">3</a></li>
+    <li class="page-item"><a class="page-link" href="#">Next</a></li>
+  </ul>
+</nav>
     </>
    
   )
