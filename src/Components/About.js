@@ -9,7 +9,7 @@ const About = () => {
           <div className="col-4">
             <img src={slid1} alt="" style={{marginTop:"10px"}} />
             <figcaption class="figure-caption">
-               CEO OF WEBSITE
+               CEO OF WEBSITES
             </figcaption>
           </div>
           <div className="col-8">
